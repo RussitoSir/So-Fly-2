@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Fly;
+    src: url(Monoton-Regular.ttf);
+}
+
+@font-face {
+    font-family: Chickweed;
+    src: url(chickweed.ttf);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Chickweed;
+    background-image: linear-gradient(#FFAA59, #251D1D);
+    color: #FF9900;
+    text-shadow: 1px 1px 6px black;
+}
+
+#hero {
+   background-image: url("Beer-banner.jpg");
+   background-size: cover;
+   padding: 110px;
+   margin: 0;
+   height: 225px;
+   border-bottom: 5px solid #5A320D;
+}
+
+#txt-logo {
+    color: #FF9900;
+    font-size: 85px;
+    font-family: Fly, serif;
+    word-spacing: 22px;
+    text-shadow: 0 0 120px #FF9900;
+     
+}
+
+
+#beer-types {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+    font-size: 18px;
+    font-size: 22px;
+    
+    }
+    
+    .beer-types {
+        margin: 10px 3px;
+        background-image: linear-gradient(#645F61, #472B10);
+         border: 3px solid #251D1D;
+         border-radius: 20px;
+         padding: 10px 9px 5px 9px;
+       
+    }
+    
+    #contact-us {
+        display:flex;
+        justify-content: space-around;
+    }
+    
+    .gif {
+        width: 240px;
+        height: 240px;
+        border: 4px solid #BB7A39;
+        border-radius: 10px;
+    
+    }
+    
+    #txt-contact-us {
+        font-size: 70px;
+        padding: 20px 10px;
+        background-image: linear-gradient(#1E1412, #3B393A);
+        border: 4px solid #1E1412;
+        border-radius: 15px;
+    }
+    
+    #link-contact-us {
+        color: #603F20;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    
+.img-beer-types {
+    width: 130px;
+    height: 170px;
+    border: 5px solid #FF9900;
+    border-radius: 50%;
+}
+
+h2 {
+    display: block;
+    margin: 5px auto;
+}
+
+#img-me {
+    width: 200px;
+    height: 250px;
+    margin-left: 170px;
+    padding: 100px;
+}
+
+#by-me {
+    display: flex;
+    justify-content: center;
+    margin: 200px auto;
+    background-image: url("trippy.gif");
+}
+
+#txt-by-me {
+    margin-top: 225px;
+    font-size: 44px;
+    color: #1E1D1C;
+    text-shadow: 8px 8px 40px white;
+}
+
